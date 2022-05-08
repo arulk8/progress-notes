@@ -1,0 +1,22 @@
+.rating {
+  width: 20rem;
+}
+.rating__btn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  font-size: 1.2rem;
+  margin: 0.1rem 0.2rem;
+  color: var(--gray);
+}
+.rating__btn:hover {
+  color: var(--o-warning);
+}
+
+.active {
+  color: var(--aux);
+}
+
+.active.rating__btn:hover {
+  color: var(--aux);
+}

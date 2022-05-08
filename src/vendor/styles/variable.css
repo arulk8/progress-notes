@@ -1,0 +1,64 @@
+:root {
+  --primary: #3f51b5;
+  --secondary: #f50057;
+  --white: #ffffff;
+  --o-white: #f0eeee;
+  --aux: #4b61a1;
+
+  --tint: #f0eeeea3;
+  --black: #000000;
+  --gray: #8a8383;
+  --o-gray: #e9e1e1;
+
+  --transparent: rgba(0, 0, 0, 0.5);
+
+  --success: #11ad40;
+  --danger: #e41d0f;
+  --warning: #f2b959;
+  --info: #445791;
+
+  --s-success: #a2d1b0;
+  --s-danger: #ed837b;
+
+  --o-success: #c0f5d0;
+  --o-danger: #f1bab6;
+  --o-warning: #f7f08c;
+  --o-info: #b4bfdd;
+
+  --font-light: 400;
+  --text-xs: 0.75rem;
+
+  --font-normal: 500;
+  --text-sm: 0.8rem;
+
+  --font-medium: 600;
+  --text-md: 1rem;
+
+  --font-semibold: 700;
+  --text-lg: 1.25rem;
+
+  --font-bold: 900;
+  --text-xl: 1.5rem;
+
+  --text-xxl: 2rem;
+  --gap-1: 0.1rem;
+  --gap-2: 0.2rem;
+  --gap-3: 0.3rem;
+  --gap-4: 0.4rem;
+  --gap-5: 0.5rem;
+  --gap-6: 0.6rem;
+  --gap-7: 0.7rem;
+  --gap-8: 0.8rem;
+  --gap-9: 0.9rem;
+  --gap-10: 1rem;
+
+  --s-40: 2.5rem;
+  --s-32: 2rem;
+  --s-28: 1.75rem;
+  --s-24: 1.5rem;
+  --s-20: 1.25rem;
+  --s-16: 1rem;
+
+  --z-index-nav: 50;
+  --z-index-modal: 70;
+}

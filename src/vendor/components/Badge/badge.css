@@ -1,0 +1,41 @@
+.txt-color {
+  color: var(--secondary);
+}
+.badge {
+  position: relative;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+.badge__count {
+  padding: 0.3rem 0.45rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -16px;
+  font-size: 0.6rem;
+}
+.badge__status {
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid var(--white);
+}
+.badge__status--xs {
+  padding: 0.15rem 0.15rem;
+  bottom: 8px;
+  right: 5px;
+}
+.badge__status--sm {
+  padding: 0.2rem 0.23rem;
+  bottom: 11px;
+  right: 14px;
+}
+.badge__status--md {
+  padding: 0.25rem 0.25rem;
+  bottom: 15px;
+  right: 19px;
+}
+.badge__status--lg {
+  padding: 0.3rem 0.3rem;
+  bottom: 18px;
+  right: 29px;
+}

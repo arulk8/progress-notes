@@ -1,0 +1,162 @@
+.list-style-none {
+  list-style-type: none;
+}
+.list-style-circle {
+  list-style-type: circle;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.margin-auto {
+  margin: auto;
+}
+.margin-auto--l {
+  margin-left: auto;
+}
+.margin-auto--r {
+  margin-right: auto;
+}
+.px-3 {
+  padding: 0 var(--gap-3);
+}
+.px-4 {
+  padding: 0 var(--gap-4);
+}
+.px-5 {
+  padding: 0 var(--gap-5);
+}
+.p-5 {
+  padding: var(--gap-5);
+}
+.p-8 {
+  padding: var(--gap-8);
+}
+.p-10 {
+  padding: var(--gap-10);
+}
+.m-8 {
+  margin: var(--gap-8);
+}
+.mx-3 {
+  margin: 0 var(--gap-3);
+}
+.mx-4 {
+  margin: 0 var(--gap-4);
+}
+.mx-5 {
+  margin: 0 var(--gap-5);
+}
+
+.py-8 {
+  padding-top: var(--gap-8);
+  padding-bottom: var(--gap-8);
+}
+.py-5 {
+  padding-top: var(--gap-5);
+  padding-bottom: var(--gap-5);
+}
+.py-4 {
+  padding: var(--gap-4) 0;
+}
+.py-3 {
+  padding: var(--gap-3) 0;
+}
+.my-8 {
+  margin: var(--gap-8) 0;
+}
+.my-5 {
+  margin: var(--gap-5) 0;
+}
+.my-4 {
+  margin: var(--gap-4) 0;
+}
+.my-3 {
+  margin: var(--gap-3) 0;
+}
+
+.inline-block {
+  display: inline-block;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-aic {
+  align-items: center;
+}
+.flex-aist {
+  align-items: flex-start;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-jcfs {
+  justify-content: flex-start;
+}
+.flex-jc {
+  justify-content: center;
+}
+.flex-jc-sb {
+  justify-content: space-between;
+}
+.flex-jc-sa {
+  justify-content: space-around;
+}
+.flex-jc-se {
+  justify-content: space-evenly;
+}
+.font-light {
+  font-weight: var(--font-light);
+  font-size: var(--text-xs);
+}
+.font-normal {
+  font-size: var(--text-md);
+}
+.font-medium {
+  font-weight: var(--font-medium);
+  font-size: var(--text-md);
+}
+.font-semibold {
+  font-weight: var(--font-semibold);
+  font-size: var(--text-lg);
+}
+.font-bold {
+  font-weight: var(--font-bold);
+  font-size: var(--text-xl);
+}
+.font-bolder {
+  font-weight: var(--font-bold);
+  font-size: var(--text-xxl);
+}
+.text-center {
+  text-align: center;
+}
+.box-shadow {
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.vgutter-xs {
+  margin-bottom: 0.8rem;
+}
+.vgutter-sm {
+  margin-bottom: 1rem;
+}
+.vgutter-md {
+  margin-bottom: 1.6rem;
+}
+.vgutter-lg {
+  margin-bottom: 2rem;
+}
+
+.hide {
+  display: none;
+}

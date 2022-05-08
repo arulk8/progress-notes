@@ -1,0 +1,36 @@
+.avatar__cr {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+.avatar__square {
+  width: 4rem;
+  height: 4rem;
+}
+.avatar__img--xs {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.avatar__img--sm {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.avatar__img--md {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+.avatar__img--lg {
+  width: 9rem;
+  height: 9rem;
+}
+.avatar-text {
+  font-size: 1.2rem;
+  font-weight: var(--font-normal);
+  background-color: var(--primary);
+  color: var(--aux);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 50px;
+}

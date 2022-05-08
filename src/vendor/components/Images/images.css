@@ -1,0 +1,38 @@
+.img {
+  margin: var(--gap-5);
+  object-fit: cover;
+}
+
+.img-sm {
+  width: 12rem;
+  height: 6rem;
+}
+.img-md {
+  width: 16rem;
+  height: 8rem;
+}
+
+.img-lg {
+  width: 20rem;
+  height: 10rem;
+}
+.img-fluid {
+  height: auto;
+  width: 100%;
+}
+
+.img__round--sm {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+.img__round--md {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+.img__round--lg {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}

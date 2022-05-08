@@ -1,0 +1,175 @@
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+.btn__primary {
+  background-color: var(--primary);
+  border: 2px solid var(--primary);
+  color: var(--white);
+}
+
+.btn__secondary {
+  background-color: var(--secondary);
+  border: 2px solid var(--secondary);
+  color: var(--white);
+}
+.btn__primary:hover {
+  background-color: var(--secondary);
+  border: 2px solid var(--secondary);
+}
+.btn__primary--ol {
+  background-color: transparent;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+.btn__primary--ol:hover {
+  border: 2px solid var(--secondary);
+  color: var(--secondary);
+}
+.btn__success {
+  background-color: var(--success);
+  border: 2px solid var(--success);
+  color: var(--white);
+}
+.btn__success:hover {
+  background-color: var(--s-success);
+  border: 2px solid var(--s-success);
+}
+.btn__success--ol {
+  background-color: transparent;
+  border: 2px solid var(--success);
+  color: var(--success);
+}
+.btn__success--ol:hover {
+  border: 2px solid var(--s-success);
+  color: var(--s-success);
+}
+.btn__error {
+  background-color: var(--danger);
+  border: 2px solid var(--danger);
+  color: var(--white);
+}
+.btn__error:hover {
+  background-color: var(--s-danger);
+  border: 2px solid var(--s-danger);
+}
+.btn__error--ol {
+  background-color: transparent;
+  border: 2px solid var(--danger);
+  color: var(--danger);
+}
+.btn__error--ol:hover {
+  border: 2px solid var(--s-danger);
+  color: var(--s-danger);
+}
+.btn__link {
+  border-radius: initial;
+  background-color: transparent;
+  height: fit-content;
+  width: fit-content;
+  border: none;
+  font-size: var(--text-md);
+  font-weight: var(--font-semibold);
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.2rem 0.3rem;
+}
+.btn__link--primary {
+  border-bottom: 2px solid var(--primary);
+  color: var(--primary);
+}
+.btn__link--primary:hover {
+  border-bottom: 2px solid var(--secondary);
+  color: var(--secondary);
+}
+.btn__link--success {
+  border-bottom: 2px solid var(--success);
+  color: var(--success);
+}
+.btn__link--success:hover {
+  border-bottom: 2px solid var(--s-success);
+  color: var(--s-success);
+}
+.btn__link--error {
+  border-bottom: 2px solid var(--danger);
+  color: var(--danger);
+}
+.btn__link--error:hover {
+  border-bottom: 2px solid var(--s-danger);
+  color: var(--s-danger);
+}
+.btn__icon {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.btn__icon--primary {
+  color: var(--primary);
+}
+.btn__icon--primary:hover {
+  color: var(--secondary);
+}
+.btn__icon--danger {
+  color: var(--danger);
+}
+.btn__icon--danger:hover {
+  color: var(--s-danger);
+}
+.btn__icon--ecomm {
+  color: var(--danger);
+}
+.btn__icon--ecomm:hover {
+  color: var(--danger);
+}
+.btn__text-icon {
+  display: flex;
+  padding: 0.6rem 1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: var(--gap-5);
+}
+.btn__text-icon--primary {
+  background-color: var(--primary);
+  color: var(--white);
+  border: 2px solid var(--primary);
+}
+.btn__text-icon--primary:hover {
+  background-color: var(--secondary);
+  border: 2px solid var(--secondary);
+}
+.btn__float {
+  padding: 0.55rem 0.65rem;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.btn__float--primary {
+  color: var(--white);
+  border: 2px solid var(--primary);
+  background-color: var(--primary);
+}
+.btn__float--primary:hover {
+  background-color: var(--secondary);
+  border: 2px solid var(--secondary);
+}
+.btn__float--success {
+  color: var(--white);
+  border: 2px solid var(--success);
+  background-color: var(--success);
+}
+.btn__float--success:hover {
+  border: 2px solid var(--s-success);
+  background-color: var(--s-success);
+}
+
+.btn__float--error {
+  color: var(--white);
+  border: 2px solid var(--danger);
+  background-color: var(--danger);
+}
+.btn__float--error:hover {
+  border: 2px solid var(--s-danger);
+  background-color: var(--s-danger);
+}

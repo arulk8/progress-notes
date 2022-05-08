@@ -1,0 +1,48 @@
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  outline: none;
+}
+
+form,
+.form {
+  width: 100%;
+}
+
+.input {
+  padding: var(--gap-5);
+  border: 1px solid var(--gray);
+  border-radius: 0.4rem;
+  display: block;
+  width: 100%;
+}
+.label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.input__default:focus {
+  border: 1px solid var(--primary);
+}
+
+.validation__msg {
+  padding-top: var(--gap-5);
+}
+.input__error {
+  color: var(--danger);
+}
+.input__success {
+  color: var(--success);
+}
+
+.input-border__error {
+  border: 1px solid var(--danger);
+}
+
+.input-border__success {
+  border: 1px solid var(--success);
+}

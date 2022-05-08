@@ -1,0 +1,44 @@
+h1,
+.h1 {
+  font-size: var(--s-40);
+  font-weight: var(--font-bold);
+}
+
+h2,
+.h2 {
+  font-size: var(--s-32);
+  font-weight: var(--font-semibold);
+}
+
+h3,
+.h3 {
+  font-size: var(--s-28);
+  font-weight: var(--font-semibold);
+}
+
+h4,
+.h4 {
+  font-size: var(--s-24);
+  font-weight: var(--font-medium);
+}
+
+h5,
+.h5 {
+  font-size: var(--s-20);
+  font-weight: var(--font-normal);
+}
+
+h6,
+.h6 {
+  font-size: var(--s-16);
+  font-weight: var(--font-normal);
+}
+.text-sm {
+  font-size: var(--text-sm);
+}
+.text-gray {
+  color: var(--gray);
+}
+.center-text {
+  text-align: center;
+}

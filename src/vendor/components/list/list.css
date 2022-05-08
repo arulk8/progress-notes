@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list__item {
+  padding: var(--gap-4) var(--gap-2);
+}
+.list-style-disc {
+  list-style-type: disc;
+}
+
+.list-style-circle {
+  list-style: circle;
+}
+
+.list-style-number {
+  list-style-type: decimal;
+}
+.list-style-alpha-upper {
+  list-style-type: upper-alpha;
+}
+.list-style-lower-upper {
+  list-style-type: lower-alpha;
+}
+.stacked__list .list__item {
+  display: inline-block;
+  position: relative;
+  border: 0.3px solid var(--gray);
+  padding: var(--gap-9);
+}

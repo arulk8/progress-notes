@@ -1,0 +1,40 @@
+.grid {
+  display: grid;
+}
+
+.grid-3-column {
+  grid-template-columns: 12rem 60% 10rem;
+  grid-template-rows: 5rem 1fr auto;
+  min-height: 100vh;
+  grid-template-areas:
+    "header header header"
+    "laside main raside"
+    "footer footer footer";
+}
+.grid-1-column {
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr auto;
+  min-height: 100vh;
+  grid-template-areas:
+    "header"
+    "textmain"
+    "footer";
+}
+.main-header {
+  grid-area: header;
+}
+.content {
+  grid-area: main;
+}
+.text-content {
+  grid-area: textmain;
+}
+.left-aside {
+  grid-area: laside;
+}
+.right-aside {
+  grid-area: raside;
+}
+.main-footer {
+  grid-area: footer;
+}

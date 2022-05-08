@@ -1,0 +1,110 @@
+.card {
+  margin: var(--gap-5);
+}
+.card__v {
+  width: 15.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card__v .card__header {
+  width: 100%;
+  position: relative;
+  padding: var(--gap-4);
+}
+.card__v .badge-icon__container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: var(--gap-7);
+  z-index: 2;
+}
+.card__v .badge-icon__container .card__icons {
+  margin-left: auto;
+}
+.card__v .card__image {
+  width: 99.6%;
+  height: 16rem;
+}
+.card__icons {
+  gap: var(--gap-7);
+}
+.card__badge {
+  background-color: var(--o-success);
+  padding: var(--gap-5) var(--gap-3);
+  border-radius: 0.5rem;
+  align-self: flex-end;
+}
+.card__overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: var(--tint);
+  color: var(--danger);
+}
+.card__content {
+  padding: var(--gap-6) var(--gap-6);
+}
+
+.card__content h2 {
+  padding-bottom: var(--gap-4);
+}
+.card__button {
+  width: 100%;
+  padding: var(--gap-5);
+  cursor: pointer;
+}
+.card__shadow {
+  box-shadow: -8px 8px 5px rgb(0 0 0 / 20%);
+}
+/**********************************************************/
+.card__h {
+  width: 28rem;
+  padding: var(--gap-3);
+}
+.card__h .card__image {
+  width: 100%;
+  height: 16rem;
+}
+.card__h .card__header {
+  width: 51%;
+  position: relative;
+}
+.card__h .badge-icon__container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+.card__h .card__body {
+  margin: auto;
+  width: 48%;
+  padding: var(--gap-6);
+}
+.card__h .card__footer {
+  padding-top: var(--gap-8);
+}
+.card__controls {
+  margin: 0.5rem;
+  gap: 0.8rem;
+}
+.card__controls > button {
+  padding: 0.2rem 0.33rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.rating--good {
+  color: var(--success);
+}
+
+.rating--fair {
+  color: var(--warning);
+}
+.rating--bad {
+  color: var(--danger);
+}
+.card__info {
+  gap: 0.5rem;
+}
