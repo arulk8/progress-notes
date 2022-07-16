@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  padding: 2rem 5rem;
+  height: 100vh;
+}
+
+.left {
+  width: 42%;
+  height: 100%;
+}
+.right {
+  background-image: url("../../static/images/notes_hero.svg");
+  height: 100%;
+  width: 52%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
