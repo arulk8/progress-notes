@@ -1,5 +1,4 @@
-@import url("./vendor/library.css");
-
+@import "vendor/library.css";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,10 +8,15 @@
 html {
   font-size: 87.5%;
   height: 100%;
-  scroll-padding-top: 5rem; /* height of sticky header */
 }
 
 body {
   font-family: "Roboto", sans-serif;
   height: 100%;
+}
+
+@media screen and (min-width: 64em) {
+  html {
+    font-size: 100%;
+  }
 }

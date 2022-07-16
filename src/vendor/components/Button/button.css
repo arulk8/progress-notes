@@ -173,3 +173,19 @@
   border: 2px solid var(--s-danger);
   background-color: var(--s-danger);
 }
+.btn__img {
+  background-color: var(--o-white);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--primary);
+  border: 2px solid var(--o-white);
+}
+
+.btn__img > .image {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.btn__img:hover {
+  border: 2px solid var(--primary);
+}

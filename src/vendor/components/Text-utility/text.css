@@ -33,6 +33,12 @@ h6,
   font-size: var(--s-16);
   font-weight: var(--font-normal);
 }
+
+p,
+.p {
+  font-size: var(--s-24);
+  font-weight: var(--font-light);
+}
 .text-sm {
   font-size: var(--text-sm);
 }
